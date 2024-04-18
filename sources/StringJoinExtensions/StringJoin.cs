@@ -13,7 +13,7 @@ public static class StringJoin
     /// <exception cref="ArgumentNullException">When the <paramref name="collectionToJoin"/> or the <paramref name="predicate"/> is null.</exception>
     /// <returns>
     /// A string that consist of the members of <paramref name="collectionToJoin"/> delimited by the <paramref name="separator"/> character,
-    /// or <see cref="String.Empty"/> if the <paramref name="collectionToJoin"/> is empty.
+    /// or <see cref="string.Empty"/> if the <paramref name="collectionToJoin"/> is empty.
     /// </returns>
     public static string Join<T>(
     char separator,
