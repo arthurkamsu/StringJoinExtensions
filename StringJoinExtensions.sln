@@ -3,9 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringJoinExtensions", "sources\StringJoinExtensions\StringJoinExtensions.csproj", "{AEDCD3D7-D349-48D2-8FC3-6D212D48CC20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringJoinExtensions", "sources\StringJoinExtensions\StringJoinExtensions.csproj", "{AEDCD3D7-D349-48D2-8FC3-6D212D48CC20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringJoinExtensionsTests", "tests\StringJoinExtensionsTests\StringJoinExtensionsTests.csproj", "{4FA2D94E-5147-4426-B738-2775921BF99D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringJoinExtensions.UnitTests", "tests\StringJoinExtensionsTests\StringJoinExtensions.UnitTests.csproj", "{4FA2D94E-5147-4426-B738-2775921BF99D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0659AD4A-987F-41D4-9093-4AA04DFBF826}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "github", "github", "{14AD0CD3-83FF-4180-8AB0-92BD6CAB1544}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{ABED4E89-BBE7-4D26-A2B8-BF076F7E6664}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +38,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{14AD0CD3-83FF-4180-8AB0-92BD6CAB1544} = {0659AD4A-987F-41D4-9093-4AA04DFBF826}
+		{ABED4E89-BBE7-4D26-A2B8-BF076F7E6664} = {14AD0CD3-83FF-4180-8AB0-92BD6CAB1544}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {92AE2055-AD5D-470D-A485-A8CF5E3364BF}
