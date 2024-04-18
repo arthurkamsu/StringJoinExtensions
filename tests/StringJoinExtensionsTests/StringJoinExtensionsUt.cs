@@ -3,7 +3,7 @@ using StringJoinExtensions;
 
 namespace StringJoinExtensionsTests;
 
-public class StringJoinExtensionsUnitTests
+public class StringJoinExtensionsUt
 {
     [Theory]
     [MemberData(nameof(SomeTypeScenario))]
